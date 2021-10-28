@@ -1,9 +1,9 @@
 %Octave Script
 %School:       Tecnologico de Estudios Superiores de Jilotepec.
-%Title:        Función Real de variable Real.
+%Title:        FunciÃ³n Real de variable Real.
 %Descripcion:  Script para comprobar la graficacion de los ejercicio propuestos
 %              por el profe.
-%Author:       Jorge Miranda Zuñiga
+%Author:       Jorge Miranda ZuÃ±iga
 %Date:         28/10/2021
 %Ejercicio:    1
 %Usage:        >>pwd
@@ -22,4 +22,4 @@ fx= ((1)+(sqrt(x-4)));
 %Grafica
 plot(x,fx,'r','linewidth',3);
 %Nombre de la tabla
-title('Funcion graficada: f(x)=1+vx-4');
+title('Funcion graficada: f(x)=1+ âˆšx-4');
