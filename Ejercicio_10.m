@@ -1,22 +1,22 @@
 %Octave Script
 %School:       Tecnologico de Estudios Superiores de Jilotepec.
-%Title:        Función Real de variable Real.
+%Title:        FunciÃ³n Real de variable Real.
 %Descripcion:  Script para comprobar la graficacion de los ejercicio propuestos
 %              por el profe.
-%Author:       Jorge Miranda Zuñiga
+%Author:       Jorge Miranda ZuÃ±iga
 %Date:         28/10/2021
-%Ejercicio:    9
+%Ejercicio:    10
 %Usage:        >>pwd
 %              >>cd Desktop
 %              >>cd Octave
-%              >>Ejercicio_9
+%              >>Ejercicio_10
 %Notes:        Se necesita el programa Octave, usar su linea de comando
 %              https://octaveintro.readthedocs.io/en/latest/index.html
 
 %Limpiar variables
 clear
 %Funcion a trozos
-%si f:D-->I | f(x)=(sqrt=0 si 0<=x<=1)(2-x si 1<x<=2)
+%si f:D-->l | f(x)=( âˆš=0 si 0<=x<=1)(2-x si 1<x<=2)
 %Vector de puntos
 x= 0:0.1:1;
 f=@(x) (x).*(0<=x).*(x<=1)+(2-x).*(1<x).*(x<=2);
